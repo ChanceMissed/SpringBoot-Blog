@@ -1,0 +1,11 @@
+#?? ??
+spring:
+  output:
+    ansi:
+      enabled: always
+#JDBC
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul
+    username: bin
+    password: 1234
